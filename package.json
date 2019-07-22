@@ -1,0 +1,19 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "description": "博客\u001b[D\u001b[D\u001b[D\u001b[Dnode博客服务端",
+  "main": "./bin/www.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development nodemon ./bin/www.js"
+  },
+  "author": "周东辉 <z1561464710@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "mysql": "^2.17.1"
+  }
+}
